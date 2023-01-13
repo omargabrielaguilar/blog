@@ -1,4 +1,3 @@
-
 /*
   The CSS in this style tag is based off of Bear Blog's default CSS.
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
@@ -8,7 +7,7 @@ body {
 	font-family: monospace;
 	margin: auto;
 	padding: 20px;
-	max-width: 90ch;
+	max-width: 95ch;
 	text-align: left;
 	background-color: rgb(0, 0, 0);
 	word-wrap: break-word;
@@ -74,5 +73,18 @@ p {
 }
 
 .light-mode {
-	background-color: #1f1f20;
+	background-color: rgb(33, 35, 32);
+}
+
+#themechange {
+	width: 65px;
+	border: none;
+	font-family: monospace;
+	background-color: #98fb56;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+#themechange:hover {
+	background-color: white;
 }
